@@ -103,9 +103,10 @@
             this.label2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(376, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 28);
+            this.label2.Size = new System.Drawing.Size(57, 28);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Username:";
+            this.label2.Text = "User";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 

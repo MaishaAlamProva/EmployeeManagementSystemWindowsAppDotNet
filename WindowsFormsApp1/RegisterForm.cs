@@ -32,5 +32,10 @@ namespace WindowsFormsApp1
              loginForm.ShowDialog();
              this.Hide();
          }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
